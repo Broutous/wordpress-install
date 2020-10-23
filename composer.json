@@ -1,0 +1,15 @@
+{
+    "name": "gaetan/wordpress-install-template",
+    "authors": [
+        {
+            "name": "GaetanOclock",
+            "email": "gaetan@oclock.io"
+        }
+    ],
+    "extra": {
+        "wordpress-install-dir": "wp"
+    },
+    "require": {
+        "johnpbloch/wordpress": "^5.5"
+    }
+}
