@@ -23,7 +23,7 @@ On définit une option dans le fichier composer.json pour gérer (si on veut le 
 
 Installer le package _johnpbloch/wordpress_ : `composer require johnpbloch/wordpress`
 
-:warning: Il ne faut oublier d'ajouter au .gitignore (ou de le créer) :
+:warning:  **gitignore** : Il ne faut pas oublier d'ajouter au .gitignore (ou de le créer) :
 
 ```
 /vendor
@@ -32,7 +32,7 @@ Installer le package _johnpbloch/wordpress_ : `composer require johnpbloch/wordp
 
 3. On récupère index.php et wp-config-sample.php depuis les fichiers de WordPress (installé dans le répertoire `wp `) et on place ces copies à la racine du projet. L'intérêt est de forcer WP à se servir de notre propre fichier de configuration. Il faut adapter le chemin du require présent dans index.php : `require __DIR__ . '/wp/wp-blog-header.php';`
 
-:warning: Il faut faire attention de ne pas oublier d'ajouter `wp-config.php` au .gitignore. On conservera un `wp-config-sample.php` pour le partage.
+:warning:  **gitignore** : Il ne faut pas oublier d'ajouter `wp-config.php` au .gitignore. On conservera un `wp-config-sample.php` pour le partage.
 
 4. On ajoute nos identifiants de base de données dans une **copie** du fichier `wp-config-sample.php` que l'on nomme `wp-config.php`. On y génère aussi les clés de hashage en suivant le lien : https://api.wordpress.org/secret-key/1.1/salt/
 
@@ -105,4 +105,4 @@ Pour installer un plugin : `composer require wpackagist-plugin/akismet`
 Attention, quand on installer un plugin, il faut l'activer (et on le fait avec wp-cli) :
 `wp plugin activate [nomduplugin]`
 
-:warning: On ne doit pas versionner le code des plugins ou des thèmes
+:warning: **gitignore** : On ne doit pas versionner le code des plugins ou des thèmes qui ne sont pas spécifiques au projet
