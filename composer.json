@@ -21,5 +21,8 @@
         "johnpbloch/wordpress": "^5.5",
         "wpackagist-theme/twentytwenty": "^1.5",
         "wpackagist-plugin/akismet": "^4.1"
+    },
+    "scripts": {
+        "init": "echo HEEEEEY"
     }
 }
