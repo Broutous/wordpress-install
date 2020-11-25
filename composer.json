@@ -1,6 +1,6 @@
 {
     "name": "broutous/wordpress-install-template",
-    "authors": ["Broutous"],
+    "author": "Broutous",
     "extra": {
         "wordpress-install-dir": "wp"
     },
