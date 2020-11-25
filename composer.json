@@ -6,6 +6,7 @@
         "name": "Broutous"
     }],
     "version": "1.0.0",
+    "license": "GPL-3.0-only",
     "extra": {
         "wordpress-install-dir": "wp"
     },
