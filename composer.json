@@ -4,6 +4,7 @@
     "authors": [{
         "name": "Broutous"
     }],
+    "version": "1.0.0",
     "extra": {
         "wordpress-install-dir": "wp"
     },
