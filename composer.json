@@ -1,5 +1,6 @@
 {
     "name": "broutous/wordpress-install-template",
+    "type": "project",
     "description": "Wordpress Install automated",
     "authors": [{
         "name": "Broutous"
