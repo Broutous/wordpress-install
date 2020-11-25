@@ -5,7 +5,7 @@
     "authors": [{
         "name": "Broutous"
     }],
-    "version": "1.0.1",
+    "version": "1.0.2",
     "license": "GPL-3.0-only",
     "extra": {
         "wordpress-install-dir": "wp"
@@ -21,8 +21,5 @@
         "johnpbloch/wordpress": "^5.5",
         "wpackagist-theme/twentytwenty": "^1.5",
         "wpackagist-plugin/akismet": "^4.1"
-    },
-    "scripts": {
-        "init": "echo HEEEEEY"
     }
 }
