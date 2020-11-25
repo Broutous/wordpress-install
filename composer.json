@@ -1,6 +1,9 @@
 {
     "name": "broutous/wordpress-install-template",
-    "author": "Broutous",
+    "description": "Wordpress Install automated",
+    "authors": [{
+        "name": "Broutous"
+    }],
     "extra": {
         "wordpress-install-dir": "wp"
     },
