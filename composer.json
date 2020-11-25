@@ -1,11 +1,6 @@
 {
-    "name": "gaetan/wordpress-install-template",
-    "authors": [
-        {
-            "name": "GaetanOclock",
-            "email": "gaetan@oclock.io"
-        }
-    ],
+    "name": "Broutous/wordpress-install-template",
+    "authors": ["Broutous"],
     "extra": {
         "wordpress-install-dir": "wp"
     },
